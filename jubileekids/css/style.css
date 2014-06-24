@@ -70,20 +70,22 @@ header h1 {
 }
 .page-contents {
   padding:30px 0;
+  position: relative;
 }
 footer {
   height:60px;
 }
 
-aside {
-  position: relative;
-}
 .fixed {
   position:fixed;
   top:0;
 }
 .adjust {
   position:absolute;
+  bottom:30px;
+}
+.scrolled {
+  position: static;
 }
 
 
